@@ -1,12 +1,16 @@
 <div align="center">
 
-<img src="./assets/tech-hero.svg" width="100%" alt="Bryan On Keys — Full Stack Developer. Portada de arquitectura tecnológica con interfaces, servicios y bases de datos." />
+# ¡Hola! 👋 Soy Bryan
 
-### Ingeniería de software, del problema a la solución.
+### Full Stack Developer
 
-Desarrollo aplicaciones web con una visión integral: **funcionalidad, experiencia de usuario y código mantenible**.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=21&amp;duration=3000&amp;pause=900&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=760&amp;height=58&amp;lines=Transformo%20ideas%20en%20aplicaciones%20web;Dise%C3%B1o%20APIs%20seguras%20y%20bien%20estructuradas;Conecto%20interfaces%2C%20servicios%20y%20datos;Creo%20experiencias%20web%20claras%20y%20funcionales;Escribo%20c%C3%B3digo%20mantenible%20y%20escalable;Aprendo%2C%20construyo%20y%20mejoro%20cada%20d%C3%ADa" alt="Frases animadas de Bryan: desarrollo Full Stack, APIs, interfaces, bases de datos y buenas prácticas" />
 
-[**Explorar repositorios ↗**](https://github.com/BryanOnKeys?tab=repositories) &nbsp; · &nbsp; [**Ver mi actividad ↗**](https://github.com/BryanOnKeys)
+<sub>Desarrollo aplicaciones de extremo a extremo, con atención al diseño y la arquitectura.</sub>
+
+<br/><br/>
+
+[Explorar mis repositorios](https://github.com/BryanOnKeys?tab=repositories) · [Actividad en GitHub](https://github.com/BryanOnKeys)
 
 </div>
 
