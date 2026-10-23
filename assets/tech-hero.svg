@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="BryanOnKeys — Full Stack Developer. Panel tecnológico moderno con capas de frontend, API y datos.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070e1f"/><stop offset=".55" stop-color="#111633"/><stop offset="1" stop-color="#17142e"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#32e5cb"/><stop offset=".48" stop-color="#6db9ff"/><stop offset="1" stop-color="#b18dff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#7959ff" stop-opacity=".32"/><stop offset="1" stop-color="#7959ff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="27" height="27" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#54729b" opacity=".2"/></pattern>
+</defs>
+<style>
+.h{font-family:Segoe UI,Inter,Arial,sans-serif;font-weight:800}
+.m{font-family:Consolas,'Liberation Mono',monospace}
+.line{animation:dash 7s linear infinite;stroke-dasharray:6 9}
+.pulse{animation:light 3s ease-in-out infinite}
+.float{animation:bob 6s ease-in-out infinite}
+@keyframes dash{to{stroke-dashoffset:-150}}
+@keyframes light{50%{opacity:.32}}
+@keyframes bob{50%{transform:translateY(-5px)}}
+@media(prefers-reduced-motion:reduce){.line,.pulse,.float{animation:none}}
+</style>
+<rect width="1200" height="380" rx="19" fill="url(#bg)"/>
+<rect width="1200" height="380" rx="19" fill="url(#dots)"/>
+<circle cx="960" cy="188" r="295" fill="url(#halo)"/>
+<rect x="1.5" y="1.5" width="1197" height="377" rx="18" stroke="#314363" fill="none"/>
+<path d="M24 21h1152" stroke="url(#accent)" stroke-width="3.5"/>
+<rect x="44" y="43" width="203" height="30" rx="15" fill="#10382f" stroke="#2ebca5" stroke-opacity=".7"/>
+<circle class="pulse" cx="61" cy="58" r="5" fill="#42f4c7"/>
+<text x="73" y="63" font-family="Consolas,monospace" font-size="12" fill="#79f7df" letter-spacing="1">AVAILABLE TO BUILD</text>
+<text x="46" y="136" class="h" font-size="59" letter-spacing="-2.7" fill="#f0f6ff">BRYAN ON KEYS</text>
+<text x="48" y="184" class="h" font-size="28" fill="#8ed9ff" letter-spacing="2">FULL STACK DEVELOPER</text>
+<text x="48" y="228" font-size="19" fill="#ccd5eb" font-family="Segoe UI,Arial,sans-serif">Engineering ideas into usable software.</text>
+<rect x="48" y="255" width="532" height="1" fill="#3c5275"/>
+<text x="48" y="281" font-size="16" class="m" fill="#8ef0d4">FRONTEND   /   BACKEND   /   DATA</text>
+<rect x="48" y="305" width="183" height="37" rx="9" fill="#18394c" stroke="#306784"/>
+<text x="63" y="329" class="m" font-size="13" fill="#c8f0ff">JAVA + SPRING</text>
+<rect x="240" y="305" width="153" height="37" rx="9" fill="#292749" stroke="#655991"/>
+<text x="257" y="329" class="m" font-size="13" fill="#d9cdff">REACT + TS</text>
+<rect x="402" y="305" width="164" height="37" rx="9" fill="#204037" stroke="#457768"/>
+<text x="419" y="329" class="m" font-size="13" fill="#b6f7dc">SQL + DATA</text>
+<g class="float">
+<rect x="646" y="78" width="178" height="145" rx="17" fill="#162b47" stroke="#529bd5" stroke-width="1.5"/>
+<rect x="663" y="96" width="144" height="9" rx="4.5" fill="#325c83"/>
+<circle cx="677" cy="100.5" r="2.4" fill="#ec897a"/><circle cx="688" cy="100.5" r="2.4" fill="#eac47b"/><circle cx="699" cy="100.5" r="2.4" fill="#65dcbb"/>
+<rect x="663" y="122" width="62" height="73" rx="6" fill="#1c4360"/>
+<rect x="734" y="122" width="73" height="13" rx="5" fill="#63bce5" opacity=".6"/>
+<rect x="734" y="144" width="56" height="8" rx="4" fill="#6184be"/>
+<rect x="734" y="161" width="70" height="8" rx="4" fill="#416483"/>
+<rect x="734" y="178" width="51" height="8" rx="4" fill="#416483"/>
+<text x="667" y="215" font-size="10" fill="#a9cbe4" class="m">CLIENT / UI</text>
+<path d="M825 145h26" stroke="#63d9d5" stroke-width="2.5" class="line"/>
+<rect x="851" y="110" width="155" height="145" rx="17" fill="#16382f" stroke="#38b89b" stroke-width="1.5"/>
+<circle cx="927" cy="163" r="31" fill="#225c4f" stroke="#45d4b1" stroke-width="2"/>
+<path d="M913 154l-10 9 10 9m29-18l10 9-10 9m-20-25l-7 29" stroke="#d3fff1" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="874" y="221" font-size="13" fill="#b0f4d5" class="m">API / SERVICE</text>
+<path d="M1007 179h26" stroke="#bbb0fa" stroke-width="2.5" class="line"/>
+<rect x="1033" y="135" width="136" height="141" rx="17" fill="#2d2444" stroke="#a68dea" stroke-width="1.5"/>
+<ellipse cx="1101" cy="169" rx="40" ry="15" fill="#58467c" stroke="#c6aaff" stroke-width="2"/>
+<path d="M1061 169v51c0 18 80 18 80 0v-51" stroke="#c6aaff" stroke-width="2" fill="#493e69"/>
+<ellipse cx="1101" cy="194" rx="40" ry="14" fill="none" stroke="#a690dc" stroke-width="1.5"/>
+<ellipse cx="1101" cy="220" rx="40" ry="14" fill="none" stroke="#a690dc" stroke-width="1.5"/>
+<text x="1068" y="260" font-size="11" fill="#d6c5ff" class="m">DATABASE</text>
+</g>
+<path d="M639 289h529" stroke="#334461" stroke-width="1"/>
+<text x="641" y="310" class="m" font-size="13" fill="#849ab7">FRONTEND</text>
+<text x="859" y="310" class="m" font-size="13" fill="#849ab7">BACKEND</text>
+<text x="1074" y="310" class="m" font-size="13" fill="#849ab7">DATA</text>
+<path d="M639 323h528" stroke="url(#accent)" stroke-width="2.5" opacity=".75"/>
+<text x="48" y="365" class="m" font-size="12" fill="#637c9e">BUILD / TEST / REFINE</text>
+</svg>
