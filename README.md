@@ -168,11 +168,26 @@ Aplicación web con vistas navegables y componentes reutilizables.
 
 ---
 
-## 05. GitHub en movimiento
+## 05. Actividad y reconocimientos
 
 <div align="center">
 
-Mis contribuciones reales, convertidas en un pequeño arcade.
+<a href="https://github.com/BryanOnKeys/borough-ledger-crm/pulls?q=is%3Apr+is%3Amerged+author%3ABryanOnKeys">
+  <img src="https://img.shields.io/badge/PRs%20fusionados-8-238636?style=flat-square&amp;logo=github&amp;logoColor=white" alt="8 pull requests fusionados y verificables" height="27" />
+</a>
+<a href="https://github.com/BryanOnKeys?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositorios%20p%C3%BAblicos-4-2563eb?style=flat-square&amp;logo=github&amp;logoColor=white" alt="4 repositorios públicos" height="27" />
+</a>
+
+<sub>Hitos verificables al 24/10/2026 · Las medallas oficiales (Achievements) las concede GitHub y aparecen automáticamente en el perfil.</sub>
+
+</div>
+
+### Contribuciones en GitHub
+
+<div align="center">
+
+Actividad real reflejada en el calendario de contribuciones.
 
 <br><br>
 
