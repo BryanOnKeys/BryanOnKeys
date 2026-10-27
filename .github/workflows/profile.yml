@@ -1,0 +1,72 @@
+name: Perfil · Blanco perlado
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - profile/**
+      - scripts/profile/**
+      - tests/**
+      - .github/workflows/profile.yml
+  pull_request:
+    paths:
+      - README.md
+      - profile/**
+      - scripts/profile/**
+      - tests/**
+      - .github/workflows/profile.yml
+  schedule:
+    - cron: "35 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-pearl-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Comprobar privacidad, datos y SVG
+        run: python3 -m unittest discover -s tests -v
+      - name: Verificar los archivos generados
+        run: python3 -m scripts.profile.build --check
+
+  refresh:
+    needs: validate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - name: Actualizar solo métricas públicas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -m scripts.profile.build --refresh
+      - name: Validar el nuevo resultado
+        run: |
+          python3 -m unittest discover -s tests -v
+          python3 -m scripts.profile.build --check
+      - name: Publicar tarjetas actualizadas
+        run: |
+          git add assets/profile profile/data.json
+          if git diff --cached --quiet; then
+            echo "Las tarjetas ya están actualizadas."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(profile): refresh public GitHub cards'
+          git push origin HEAD:main

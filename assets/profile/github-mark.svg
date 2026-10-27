@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-labelledby="title desc"><title id="title">GitHub · BryanOnKeys</title><desc id="desc">GitHub · BryanOnKeys</desc><defs>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#19212b"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="pearl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".28" stop-color="#b6c6d8"/><stop offset=".52" stop-color="#fff"/><stop offset=".75" stop-color="#c8d9eb"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#eff8ff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="sheen"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#f1f7ff" stop-opacity=".22"/><stop offset="1" stop-color="#d6e8ff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:Segoe UI,Arial,Helvetica,sans-serif;fill:#f6f9ff}
+.mono{font-family:ui-monospace,Consolas,Liberation Mono,monospace}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.orbit{transform-origin:center;animation:orbit 28s linear infinite}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><rect width="200" height="200" rx="14" fill="#0d1117"/><circle cx="100" cy="100" r="95" fill="url(#halo)"/><circle class="pulse" cx="100" cy="100" r="78" fill="none" stroke="#edf6ff" stroke-opacity="0.18"/><circle class="pulse" cx="100" cy="100" r="68" fill="none" stroke="#edf6ff" stroke-opacity="0.35"/><circle class="pulse" cx="100" cy="100" r="59" fill="none" stroke="#edf6ff" stroke-opacity="0.7"/><circle cx="100" cy="100" r="51" fill="url(#pearl)"/><g transform="translate(68 68) scale(4)" fill="#0d1117"><path d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"/></g><g class="orbit"><circle cx="100" cy="22" r="3" fill="#fff" filter="url(#glow)"/></g></svg>

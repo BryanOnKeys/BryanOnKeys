@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="title desc"><title id="title">Actividad reciente</title><desc id="desc">Actividad reciente</desc><defs>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#19212b"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="pearl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".28" stop-color="#b6c6d8"/><stop offset=".52" stop-color="#fff"/><stop offset=".75" stop-color="#c8d9eb"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#eff8ff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="sheen"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#f1f7ff" stop-opacity=".22"/><stop offset="1" stop-color="#d6e8ff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:Segoe UI,Arial,Helvetica,sans-serif;fill:#f6f9ff}
+.mono{font-family:ui-monospace,Consolas,Liberation Mono,monospace}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.orbit{transform-origin:center;animation:orbit 28s linear infinite}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><rect width="1200" height="96" rx="14" fill="#0d1117"/><text x="4" y="22" font-size="12" font-weight="500" style="fill:#a4adbb" class="mono" letter-spacing="2">// 06 · BRYANONKEYS</text><text x="2" y="64" font-size="34" font-weight="650" style="fill:#f6f9ff" class="" >Actividad reciente</text><text x="1196" y="61" font-size="14" font-weight="400" style="fill:#a4adbb" text-anchor="end" class="" >lo que está ocurriendo en GitHub</text><path d="M2 82H1198" stroke="#303a48" /><path d="M2 82H150" stroke="url(#pearl)" stroke-width="3"/></svg>

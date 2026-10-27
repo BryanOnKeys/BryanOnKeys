@@ -1,0 +1,134 @@
+{
+  "login": "BryanOnKeys",
+  "name": "Bryan",
+  "location": "Lima, Perú",
+  "role": "Full Stack Developer",
+  "education": "Egresado de Computación e Informática · Cibertec",
+  "headlines": [
+    "De la interfaz a la base de datos.",
+    "Java · Spring Boot · React · TypeScript",
+    "APIs claras. Reglas de negocio consistentes.",
+    "NestJS · PostgreSQL · Docker · AWS",
+    "Aprender. Construir. Mejorar."
+  ],
+  "stack": [
+    {
+      "title": "BACKEND",
+      "label": "Servicios con intención",
+      "items": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "NestJS",
+        "TypeScript",
+        "REST APIs"
+      ]
+    },
+    {
+      "title": "FRONTEND",
+      "label": "Interfaces que conectan",
+      "items": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "HTML · CSS",
+        "Tailwind CSS",
+        "Vite"
+      ]
+    },
+    {
+      "title": "DATOS",
+      "label": "Consistencia y persistencia",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server",
+        "MikroORM",
+        "Spring Data JPA",
+        "SQL"
+      ]
+    },
+    {
+      "title": "ENTORNO",
+      "label": "Del código a la entrega",
+      "items": [
+        "Git · GitHub",
+        "Docker",
+        "GitHub Actions",
+        "Postman",
+        "AWS · SNS · SQS",
+        "S3 · Secrets Manager"
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "number": "01",
+      "title": "Backend y arquitectura",
+      "lines": [
+        "DDD, APIs REST y microservicios.",
+        "Concurrencia, idempotencia y eventos."
+      ],
+      "tag": "NEXO · NESTJS / POSTGRESQL"
+    },
+    {
+      "number": "02",
+      "title": "Calidad de principio a fin",
+      "lines": [
+        "Pruebas, permisos y errores comprensibles.",
+        "Docker y automatización con GitHub Actions."
+      ],
+      "tag": "TESTING / CI / DOCUMENTACIÓN"
+    },
+    {
+      "number": "03",
+      "title": "Seguir aprendiendo",
+      "lines": [
+        "Retomar C# y .NET con práctica constante.",
+        "Profundizar en AWS y despliegues reales."
+      ],
+      "tag": "APRENDIZAJE EN CURSO"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "nexo-fulfillment",
+      "title": "NEXO Fulfillment",
+      "eyebrow": "01 / OPERACIONES CONECTADAS",
+      "summary": [
+        "Pedidos, inventario y despachos en tiempo real.",
+        "Una reserva transaccional conecta tres servicios",
+        "con documentos PDF y notificaciones."
+      ],
+      "tags": ["NestJS", "TypeScript", "PostgreSQL", "Docker", "AWS"],
+      "details": "DDD · outbox / inbox · WebSockets · MikroORM · Terraform",
+      "kind": "fulfillment"
+    },
+    {
+      "slug": "borough-ledger-crm",
+      "title": "Borough & Ledger",
+      "eyebrow": "02 / GESTIÓN COMERCIAL",
+      "summary": [
+        "Una aplicación Full Stack para gestión comercial.",
+        "Interfaces React conectadas con servicios Java",
+        "y persistencia relacional en MySQL."
+      ],
+      "tags": ["Java", "Spring Boot", "React", "TypeScript", "MySQL"],
+      "details": "Servicios · autorización · datos relacionales · interfaz web",
+      "kind": "crm"
+    },
+    {
+      "slug": "web-petshop",
+      "title": "Patitas Felices",
+      "eyebrow": "03 / EXPERIENCIA WEB",
+      "summary": [
+        "Una tienda de productos para mascotas.",
+        "Vistas navegables y componentes reutilizables",
+        "con una interfaz construida en React."
+      ],
+      "tags": ["React", "JavaScript", "Vite", "Tailwind CSS"],
+      "details": "Frontend · componentes · navegación · diseño de interfaces",
+      "kind": "shop"
+    }
+  ]
+}

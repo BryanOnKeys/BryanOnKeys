@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="70" viewBox="0 0 290 70" role="img" aria-labelledby="title desc"><title id="title">Sobre mí</title><desc id="desc">Sobre mí</desc><defs>
+<linearGradient id="surface" x2="1" y2="1"><stop stop-color="#19212b"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="pearl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".28" stop-color="#b6c6d8"/><stop offset=".52" stop-color="#fff"/><stop offset=".75" stop-color="#c8d9eb"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<linearGradient id="line"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#eff8ff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="sheen"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#f1f7ff" stop-opacity=".22"/><stop offset="1" stop-color="#d6e8ff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:Segoe UI,Arial,Helvetica,sans-serif;fill:#f6f9ff}
+.mono{font-family:ui-monospace,Consolas,Liberation Mono,monospace}
+.pulse{animation:pulse 5s ease-in-out infinite}
+.orbit{transform-origin:center;animation:orbit 28s linear infinite}
+@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+@keyframes orbit{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><rect width="290" height="70" rx="14" fill="#0d1117"/><rect x="0.5" y="0.5" width="289" height="69" rx="12" fill="url(#surface)" stroke="#303a48" /><text x="16" y="44" font-size="27" font-weight="400" style="fill:#bdcddd" class="mono" >01</text><text x="66" y="42" font-size="18" font-weight="600" style="fill:#f6f9ff" class="" >Sobre mí</text><text x="270" y="42" font-size="22" font-weight="400" style="fill:#a4adbb" text-anchor="end" class="" >↗</text></svg>
