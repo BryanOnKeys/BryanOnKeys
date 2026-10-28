@@ -47,3 +47,11 @@ El icono GitHub procede de Primer Octicons; su licencia y atribución están en 
 La presentación se organiza en doce apartados, siguiendo el orden visual del perfil de referencia, pero con ilustraciones SVG originales en `assets/showcase/`. Se conserva el generador propio de métricas y tarjetas de `assets/profile/` junto con su workflow de actualización diaria. Las secciones de evolución anual y relieve 3D son instantáneas de datos públicos verificables indicadas con su fecha de corte; las demás métricas dinámicas siguen el flujo existente. Las tarjetas de enlaces llevan exclusivamente a proyectos, perfiles y archivos reales de BryanOnKeys. El libro de visitas utiliza el sistema nativo de GitHub Issues.
 
 Los SVG no incluyen JavaScript, servicios de rastreo ni imágenes de terceros. La composición se inspira en AbdullahBakir97, sin reutilizar sus archivos artísticos ni atribuir a Bryan su trabajo.
+
+## Reconstrucción cinematográfica · Octubre 2026
+
+La composición nueva utiliza **42 archivos SVG originales** generados por `scripts/profile/cinematic.mjs` a partir de `profile/config.json` y `profile/data.json`. Está inspirada visualmente en el estilo de AbdullahBakir97 (tipografía, estructura de doce secciones, tarjetas, diagramas, visualizaciones y paleta), pero no copia los assets originales de ese repositorio, que no declara licencia de reutilización.
+
+Se construyó para `BryanOnKeys` con datos públicos verificables: el mosaico tiene letras decorativas, pero los totales de contribuciones son reales; la sección anual indica explícitamente que los años representados son parciales. No se inventan commits, releases, clientes, tecnologías usadas ni métricas de desempeño en tiempo real. Las tarjetas de repositorios distinguen trabajos propios de forks para open source.
+
+Actualización: `node scripts/profile/cinematic.mjs` regenera las piezas; `node scripts/profile/cinematic.mjs --check` detecta desajustes. El workflow `.github/workflows/profile.yml` actualiza antes `profile/data.json`, luego genera estas piezas y las publica con los demás SVG del perfil. Los recursos SVG no ejecutan JavaScript ni solicitan secretos.
