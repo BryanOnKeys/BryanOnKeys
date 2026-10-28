@@ -19,10 +19,10 @@
 </p>
 
 <p align="center">
-  <a href="#about">Sobre mí</a> &nbsp; / &nbsp;
-  <a href="#projects">Proyectos</a> &nbsp; / &nbsp;
-  <a href="#stats">GitHub</a> &nbsp; / &nbsp;
-  <a href="#connect">Conectemos</a>
+  <a href="#user-content-about">Sobre mí</a> &nbsp; / &nbsp;
+  <a href="#user-content-projects">Proyectos</a> &nbsp; / &nbsp;
+  <a href="#user-content-stats">GitHub</a> &nbsp; / &nbsp;
+  <a href="#user-content-connect">Conectemos</a>
 </p>
 
 <p align="center"><img src="./assets/profile/splitter.svg" width="100%" alt="" /></p>
@@ -41,20 +41,20 @@ Me interesa resolver problemas construyendo software que tenga sentido por dentr
 <p align="center"><img src="./assets/profile/splitter.svg" width="100%" alt="" /></p>
 
 <p align="center">
-  <a href="#about"><img src="./assets/profile/nav/about.svg" width="49%" alt="01 · Sobre mí" /></a>
-  <a href="#stack"><img src="./assets/profile/nav/stack.svg" width="49%" alt="02 · Stack tecnológico" /></a>
+  <a href="#user-content-about"><img src="./assets/profile/nav/about.svg" width="49%" alt="01 · Sobre mí" /></a>
+  <a href="#user-content-stack"><img src="./assets/profile/nav/stack.svg" width="49%" alt="02 · Stack tecnológico" /></a>
 </p>
 <p align="center">
-  <a href="#focus"><img src="./assets/profile/nav/focus.svg" width="49%" alt="03 · Enfoque actual" /></a>
-  <a href="#projects"><img src="./assets/profile/nav/projects.svg" width="49%" alt="04 · Proyectos destacados" /></a>
+  <a href="#user-content-focus"><img src="./assets/profile/nav/focus.svg" width="49%" alt="03 · Enfoque actual" /></a>
+  <a href="#user-content-projects"><img src="./assets/profile/nav/projects.svg" width="49%" alt="04 · Proyectos destacados" /></a>
 </p>
 <p align="center">
-  <a href="#stats"><img src="./assets/profile/nav/stats.svg" width="49%" alt="05 · GitHub en cifras" /></a>
-  <a href="#activity"><img src="./assets/profile/nav/activity.svg" width="49%" alt="06 · Actividad reciente" /></a>
+  <a href="#user-content-stats"><img src="./assets/profile/nav/stats.svg" width="49%" alt="05 · GitHub en cifras" /></a>
+  <a href="#user-content-activity"><img src="./assets/profile/nav/activity.svg" width="49%" alt="06 · Actividad reciente" /></a>
 </p>
 <p align="center">
-  <a href="#contributions"><img src="./assets/profile/nav/contributions.svg" width="49%" alt="07 · Contribuciones" /></a>
-  <a href="#connect"><img src="./assets/profile/nav/connect.svg" width="49%" alt="08 · Conectemos" /></a>
+  <a href="#user-content-contributions"><img src="./assets/profile/nav/contributions.svg" width="49%" alt="07 · Contribuciones" /></a>
+  <a href="#user-content-connect"><img src="./assets/profile/nav/connect.svg" width="49%" alt="08 · Conectemos" /></a>
 </p>
 
 <a id="stack"></a>
@@ -162,6 +162,6 @@ Me interesa compartir lo que aprendo, recibir feedback y colaborar en proyectos 
   <a href="https://www.linkedin.com/in/bryanonkeys"><img src="./assets/profile/contact-linkedin.svg" width="49%" alt="Visitar mi perfil profesional en LinkedIn" /></a>
 </p>
 
-<p align="center"><a href="#inicio"><img src="./assets/profile/footer.svg" width="100%" alt="Gracias por visitar mi perfil. Bryan On Keys · código con intención. Volver arriba." /></a></p>
+<p align="center"><a href="#user-content-inicio"><img src="./assets/profile/footer.svg" width="100%" alt="Gracias por visitar mi perfil. Bryan On Keys · código con intención. Volver arriba." /></a></p>
 
 <p align="center"><sub><a href="./DESIGN.md">Sobre el diseño y la actualización de este perfil</a></sub></p>
