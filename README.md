@@ -124,8 +124,9 @@
 <p align="center"><a href="https://github.com/BryanOnKeys/web-petshop"><img src="./assets/cinematic/spotlight-web-petshop.svg" width="100%" alt="Patitas Felices: frontend y e-commerce con React"/></a></p>
 <h3 align="center">Featured / Open Source</h3>
 <p align="center">
-  <a href="https://github.com/BryanOnKeys/verfy"><img src="./assets/showcase/featured/nexo.svg" width="49%" alt="Ver repositorio verfy"/></a>
-  <a href="https://github.com/BryanOnKeys/duo"><img src="./assets/showcase/featured/crm.svg" width="49%" alt="Ver fork duo"/></a>
+  <a href="https://github.com/BryanOnKeys/verfy"><img src="./assets/cinematic/featured-verfy.svg" width="49%" alt="Repositorio propio verfy"/></a>
+  <a href="https://github.com/BryanOnKeys/duo"><img src="./assets/cinematic/featured-duo.svg" width="49%" alt="Fork duo para contribuciones"/></a>
+  <a href="https://github.com/BryanOnKeys/pqc-migration-readiness"><img src="./assets/cinematic/featured-pqc-migration-readiness.svg" width="49%" alt="Fork pqc-migration-readiness"/></a>
 </p>
 <details>
 <summary align="center"><b>Project index</b> · Proyectos y código abierto</summary>
@@ -146,7 +147,7 @@
 
 <a id="quality"></a>
 <p align="center"><img src="./assets/cinematic/sections/quality.svg" width="100%" alt="09 - Pruebas, CI y arquitectura"/></p>
-<p align="center"><img src="./assets/showcase/quality.svg" width="100%" alt="Panel de calidad técnica: pruebas, automatización, documentación y arquitectura"/></p>
+<p align="center"><img src="./assets/cinematic/quality.svg" width="100%" alt="Panel de calidad técnica: pruebas, automatización, documentación y arquitectura"/></p>
 <p align="center">
   <a href="https://github.com/BryanOnKeys/nexo-fulfillment/actions/workflows/ci.yml"><b>NEXO · CI</b></a> ·
   <a href="https://github.com/BryanOnKeys/nexo-fulfillment/blob/main/docs/arquitectura.md"><b>Arquitectura documentada</b></a> ·

@@ -43,7 +43,6 @@ jobs:
         run: |
           python3 -m scripts.profile.build --check
           node scripts/profile/cinematic.mjs --check
-          node scripts/profile/cinematic.mjs --check
 
   refresh:
     needs: validate
@@ -66,6 +65,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -v
           python3 -m scripts.profile.build --check
+          node scripts/profile/cinematic.mjs --check
       - name: Publicar tarjetas actualizadas
         run: |
           git add assets/profile assets/cinematic profile/data.json
