@@ -1,4 +1,4 @@
-name: Perfil · Blanco perlado
+name: Perfil · Volumetric 3D
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
       - profile/**
       - scripts/profile/**
       - assets/cinematic/**
+      - assets/3d/**
       - tests/**
       - .github/workflows/profile.yml
   pull_request:
@@ -16,6 +17,7 @@ on:
       - profile/**
       - scripts/profile/**
       - assets/cinematic/**
+      - assets/3d/**
       - tests/**
       - .github/workflows/profile.yml
   schedule:
@@ -44,6 +46,7 @@ jobs:
           python3 -m scripts.profile.build --check
           node scripts/profile/cinematic.mjs
           node scripts/profile/cinematic.mjs --check
+          node scripts/profile/volumetric.mjs --check
 
   refresh:
     needs: validate
@@ -62,6 +65,7 @@ jobs:
         run: |
           python3 -m scripts.profile.build --refresh
           node scripts/profile/cinematic.mjs
+          node scripts/profile/volumetric.mjs
       - name: Validar el nuevo resultado
         run: |
           python3 -m unittest discover -s tests -v
@@ -69,7 +73,7 @@ jobs:
           node scripts/profile/cinematic.mjs --check
       - name: Publicar tarjetas actualizadas
         run: |
-          git add assets/profile assets/cinematic profile/data.json
+          git add assets/profile assets/cinematic assets/3d profile/data.json
           if git diff --cached --quiet; then
             echo "Las tarjetas ya están actualizadas."
             exit 0

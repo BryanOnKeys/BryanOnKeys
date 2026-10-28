@@ -1,0 +1,38 @@
+name: Contribution 3D · Official Generator
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/3d-contributions.yml
+  schedule:
+    - cron: '15 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bryanonkeys-3d-contrib
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: yoshi389111/github-profile-3d-contrib@e235d118909be71eb7edb05482a3de4e76156df3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: BryanOnKeys
+      - name: Publish generated 3D SVG files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile-3d-contrib/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'chore(profile): regenerate authentic 3D contributions'
+          for attempt in 1 2 3 4; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+          done
+          exit 1

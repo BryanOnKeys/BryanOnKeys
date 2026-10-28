@@ -55,3 +55,11 @@ La composición nueva utiliza **42 archivos SVG originales** generados por `scri
 Se construyó para `BryanOnKeys` con datos públicos verificables: el mosaico tiene letras decorativas, pero los totales de contribuciones son reales; la sección anual indica explícitamente que los años representados son parciales. No se inventan commits, releases, clientes, tecnologías usadas ni métricas de desempeño en tiempo real. Las tarjetas de repositorios distinguen trabajos propios de forks para open source.
 
 Actualización: `node scripts/profile/cinematic.mjs` regenera las piezas; `node scripts/profile/cinematic.mjs --check` detecta desajustes. El workflow `.github/workflows/profile.yml` actualiza antes `profile/data.json`, luego genera estas piezas y las publica con los demás SVG del perfil. Los recursos SVG no ejecutan JavaScript ni solicitan secretos.
+
+## Diseño Volumetric 3D · Octubre 2026
+
+Nuevo enfoque que **descarta el blanco perlado**. El README se construye con escenas isométricas SVG propias de un entorno tecnológico oscuro con acentos cian/violeta, usando `scripts/profile/volumetric.mjs` y los datos públicos de `profile/data.json`. Cada proyecto tiene su modelo ilustrativo específico. La ciudad de contribuciones representa los recuentos reales, sin crear días ni commits artificiales; otros efectos son decorativos.
+
+Un segundo workflow utiliza el proyecto [github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) con licencia MIT (autor SATO Yoshiyuki) para producir variantes 3D del calendario. Esas variantes se generan al ejecutarse el workflow y no son necesarias para que cargue el README principal.
+
+GitHub no permite ejecutar Three.js/WebGL dentro de la presentación Markdown. Los archivos SVG son imágenes y los modelos interactivos requieren una web aparte.
