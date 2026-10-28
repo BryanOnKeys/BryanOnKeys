@@ -1,0 +1,15 @@
+name: "Libro de visitas"
+description: "Deja un saludo, idea o comentario público para BryanOnKeys."
+title: "[Visita] "
+body:
+  - type: markdown
+    attributes:
+      value: "Gracias por visitar el perfil. Tu comentario será público en GitHub Issues; evita incluir datos personales."
+  - type: textarea
+    id: mensaje
+    attributes:
+      label: "Tu mensaje"
+      description: "Comparte un saludo, una idea o sugerencia de forma respetuosa."
+      placeholder: "Hola, pasé por tu perfil y..."
+    validations:
+      required: true

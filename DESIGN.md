@@ -41,3 +41,9 @@ Los SVG usan vectores, gradientes y animaciones sin JavaScript ni fuentes extern
 El workflow de Pac-Man y su rama `output` se mantienen. Su visualización está en una sección desplegable del perfil.
 
 El icono GitHub procede de Primer Octicons; su licencia y atribución están en [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
+
+## Diseño ampliado en octubre de 2026
+
+La presentación se organiza en doce apartados, siguiendo el orden visual del perfil de referencia, pero con ilustraciones SVG originales en `assets/showcase/`. Se conserva el generador propio de métricas y tarjetas de `assets/profile/` junto con su workflow de actualización diaria. Las secciones de evolución anual y relieve 3D son instantáneas de datos públicos verificables indicadas con su fecha de corte; las demás métricas dinámicas siguen el flujo existente. Las tarjetas de enlaces llevan exclusivamente a proyectos, perfiles y archivos reales de BryanOnKeys. El libro de visitas utiliza el sistema nativo de GitHub Issues.
+
+Los SVG no incluyen JavaScript, servicios de rastreo ni imágenes de terceros. La composición se inspira en AbdullahBakir97, sin reutilizar sus archivos artísticos ni atribuir a Bryan su trabajo.
