@@ -137,7 +137,7 @@ Este apartado **se genera desde código** mediante [GitHub Actions](https://gith
 
 | Contribuciones (últimos 12 meses) | Repositorios públicos | Proyectos propios públicos | Estrellas en esos repositorios | Seguidores |
 | :---: | :---: | :---: | :---: | :---: |
-| **50** | **9** | **4** | **3** | **3** |
+| **51** | **9** | **4** | **3** | **3** |
 
 <details>
 <summary>Últimos eventos públicos registrados</summary>
