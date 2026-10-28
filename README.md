@@ -144,9 +144,9 @@ Este apartado **se genera desde código** mediante [GitHub Actions](https://gith
 
 | Fecha | Repositorio | Evento |
 | --- | --- | --- |
-| 2026-10-26 | [`verfy`](https://github.com/BryanOnKeys/verfy) | Nueva rama o repositorio |
-| 2026-10-26 | [`duo`](https://github.com/BryanOnKeys/duo) | Nueva rama o repositorio |
-| 2026-10-26 | [`duo`](https://github.com/BryanOnKeys/duo) | Nueva rama o repositorio |
+| 2026-10-27 | [`BryanOnKeys`](https://github.com/BryanOnKeys/BryanOnKeys) | Código actualizado |
+| 2026-10-27 | [`nexo-fulfillment`](https://github.com/BryanOnKeys/nexo-fulfillment) | Código actualizado |
+| 2026-10-27 | [`nexo-fulfillment`](https://github.com/BryanOnKeys/nexo-fulfillment) | Nueva rama o repositorio |
 
 </details>
 
