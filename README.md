@@ -65,11 +65,18 @@ Trabajo en aplicaciones que conectan interfaces, servicios y datos. Me interesan
 
 <a id="contributions"></a>
 <h2 align="left">07 · Contribution City · Actividad real</h2>
+<h3 align="center">3D Contribution Skyline · Night Rainbow</h3>
+<p align="center"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Vista 3D nocturna generada a partir de las contribuciones auténticas de BryanOnKeys"/></p>
+<h3 align="center">Isometric City · Datos reales</h3>
 <p align="center"><img src="./assets/3d/contribution-city.svg" alt="Ciudad tridimensional isométrica que muestra contribuciones diarias reales de BryanOnKeys" width="100%"/></p>
 <details>
 <summary><b>Animación 3D alternativa y otros modelos</b></summary>
 
-El workflow <a href="https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/3d-contributions.yml">GitHub Profile 3D Contrib</a> genera otros modelos 3D y variantes de color mediante GitHub Actions. Los archivos generados aparecerán en <a href="https://github.com/BryanOnKeys/BryanOnKeys/tree/main/profile-3d-contrib">profile-3d-contrib</a> después de que la ejecución finalice correctamente.
+Los modelos están disponibles en el directorio <a href="https://github.com/BryanOnKeys/BryanOnKeys/tree/main/profile-3d-contrib">profile-3d-contrib</a> y se regeneran mediante <a href="https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/3d-contributions.yml">GitHub Actions</a>.
+
+<p align="center"><img src="./profile-3d-contrib/profile-night-view.svg" alt="Otra vista 3D nocturna de contribuciones" width="100%"/></p>
+<p align="center"><img src="./profile-3d-contrib/profile-gitblock.svg" alt="Vista tridimensional GitBlock de contribuciones" width="100%"/></p>
+<p align="center"><img src="./profile-3d-contrib/profile-green-animate.svg" alt="Vista tridimensional verde animada de contribuciones" width="100%"/></p>
 
 </details>
 <p align="center"><a href="https://honzaap.github.io/GithubCity?name=BryanOnKeys">Explorar una ciudad 3D interactiva basada en GitHub</a></p>
