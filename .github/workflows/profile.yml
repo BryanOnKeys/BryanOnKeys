@@ -42,6 +42,7 @@ jobs:
       - name: Verificar los archivos generados
         run: |
           python3 -m scripts.profile.build --check
+          node scripts/profile/cinematic.mjs
           node scripts/profile/cinematic.mjs --check
 
   refresh:
