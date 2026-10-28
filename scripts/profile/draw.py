@@ -651,8 +651,11 @@ def assets(config, data, mark_path):
         "contact-github.svg": connect(
             "GitHub", "@BryanOnKeys · código, proyectos y actividad", "↗"
         ),
-        "contact-projects.svg": connect(
-            "Mis repositorios", "Explora el código y la documentación", "⌘"
+        "contact-linkedin.svg": connect(
+            "LinkedIn",
+            config["linkedin"].removeprefix("https://www.linkedin.com/").rstrip("/")
+            + " · perfil profesional",
+            "in",
         ),
         "splitter.svg": svg(
             "Separador decorativo",

@@ -159,7 +159,7 @@ Me interesa compartir lo que aprendo, recibir feedback y colaborar en proyectos 
 
 <p align="center">
   <a href="https://github.com/BryanOnKeys"><img src="./assets/profile/contact-github.svg" width="49%" alt="Visitar el perfil de BryanOnKeys en GitHub" /></a>
-  <a href="https://github.com/BryanOnKeys?tab=repositories"><img src="./assets/profile/contact-projects.svg" width="49%" alt="Explorar mis repositorios públicos" /></a>
+  <a href="https://www.linkedin.com/in/bryanonkeys"><img src="./assets/profile/contact-linkedin.svg" width="49%" alt="Visitar mi perfil profesional en LinkedIn" /></a>
 </p>
 
 <p align="center"><a href="#inicio"><img src="./assets/profile/footer.svg" width="100%" alt="Gracias por visitar mi perfil. Bryan On Keys · código con intención. Volver arriba." /></a></p>

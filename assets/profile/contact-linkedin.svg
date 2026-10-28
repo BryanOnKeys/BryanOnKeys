@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="590" height="140" viewBox="0 0 590 140" role="img" aria-labelledby="title desc"><title id="title">Mis repositorios</title><desc id="desc">Mis repositorios</desc><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="140" viewBox="0 0 590 140" role="img" aria-labelledby="title desc"><title id="title">LinkedIn</title><desc id="desc">LinkedIn</desc><defs>
 <linearGradient id="surface" x2="1" y2="1"><stop stop-color="#19212b"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
 <linearGradient id="pearl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".28" stop-color="#b6c6d8"/><stop offset=".52" stop-color="#fff"/><stop offset=".75" stop-color="#c8d9eb"/><stop offset="1" stop-color="#fff"/></linearGradient>
 <linearGradient id="line"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#eff8ff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
@@ -14,4 +14,4 @@ text{font-family:Segoe UI,Arial,Helvetica,sans-serif;fill:#f6f9ff}
 @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
 @keyframes orbit{to{transform:rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important}}
-</style><rect width="590" height="140" rx="14" fill="#0d1117"/><rect x="0.5" y="0.5" width="589" height="139" rx="18" fill="url(#surface)" stroke="#303a48" /><text x="28" y="57" font-size="30" font-weight="600" style="fill:#f6f9ff" class="" >Mis repositorios</text><text x="28" y="96" font-size="16" font-weight="400" style="fill:#a4adbb" class="" >Explora el código y la documentación</text><text x="553" y="77" font-size="35" font-weight="400" style="fill:#deebfa" text-anchor="end" class="" >⌘</text></svg>
+</style><rect width="590" height="140" rx="14" fill="#0d1117"/><rect x="0.5" y="0.5" width="589" height="139" rx="18" fill="url(#surface)" stroke="#303a48" /><text x="28" y="57" font-size="30" font-weight="600" style="fill:#f6f9ff" class="" >LinkedIn</text><text x="28" y="96" font-size="16" font-weight="400" style="fill:#a4adbb" class="" >in/bryanonkeys · perfil profesional</text><text x="553" y="77" font-size="35" font-weight="400" style="fill:#deebfa" text-anchor="end" class="" >in</text></svg>
