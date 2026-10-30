@@ -133,18 +133,18 @@ private Customer find(AppUser actor, UUID id) {
 Este apartado **se genera desde código** mediante [GitHub Actions](https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/profile.yml) y un [script de Node.js](https://github.com/BryanOnKeys/BryanOnKeys/blob/main/scripts/profile/render_readme.mjs). No introduce visitas, commits, estrellas ni actividad ficticia.
 
 <!-- PROFILE_LIVE:START -->
-**Actividad verificable** · Instantánea pública: `2026-10-29` (UTC)
+**Actividad verificable** · Instantánea pública: `2026-10-30` (UTC)
 
 | Contribuciones (últimos 12 meses) | Repositorios públicos | Proyectos propios públicos | Estrellas en esos repositorios | Seguidores |
 | :---: | :---: | :---: | :---: | :---: |
-| **53** | **9** | **4** | **3** | **4** |
+| **58** | **10** | **5** | **4** | **4** |
 
 <details>
 <summary>Últimos eventos públicos registrados</summary>
 
 | Fecha | Repositorio | Evento |
 | --- | --- | --- |
-| 2026-10-27 | [`nexo-fulfillment`](https://github.com/BryanOnKeys/nexo-fulfillment) | Código actualizado |
+| 2026-10-28 | [`BryanOnKeys`](https://github.com/BryanOnKeys/BryanOnKeys) | Código actualizado |
 | 2026-10-28 | [`BryanOnKeys`](https://github.com/BryanOnKeys/BryanOnKeys) | Código actualizado |
 | 2026-10-28 | [`BryanOnKeys`](https://github.com/BryanOnKeys/BryanOnKeys) | Código actualizado |
 
