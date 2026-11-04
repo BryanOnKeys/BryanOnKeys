@@ -133,20 +133,20 @@ private Customer find(AppUser actor, UUID id) {
 Este apartado **se genera desde código** mediante [GitHub Actions](https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/profile.yml) y un [script de Node.js](https://github.com/BryanOnKeys/BryanOnKeys/blob/main/scripts/profile/render_readme.mjs). No introduce visitas, commits, estrellas ni actividad ficticia.
 
 <!-- PROFILE_LIVE:START -->
-**Actividad verificable** · Instantánea pública: `2026-11-03` (UTC)
+**Actividad verificable** · Instantánea pública: `2026-11-04` (UTC)
 
 | Contribuciones (últimos 12 meses) | Repositorios públicos | Proyectos propios públicos | Estrellas en esos repositorios | Seguidores |
 | :---: | :---: | :---: | :---: | :---: |
-| **78** | **14** | **5** | **4** | **9** |
+| **80** | **14** | **5** | **4** | **11** |
 
 <details>
 <summary>Últimos eventos públicos registrados</summary>
 
 | Fecha | Repositorio | Evento |
 | --- | --- | --- |
+| 2026-11-02 | [`duo`](https://github.com/BryanOnKeys/duo) | Código actualizado |
 | 2026-11-01 | [`web-petshop`](https://github.com/BryanOnKeys/web-petshop) | Código actualizado |
 | 2026-11-01 | [`openstand`](https://github.com/BryanOnKeys/openstand) | Código actualizado |
-| 2026-11-01 | [`web-petshop`](https://github.com/BryanOnKeys/web-petshop) | Nueva rama o repositorio |
 
 </details>
 
