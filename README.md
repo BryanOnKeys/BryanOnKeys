@@ -133,11 +133,11 @@ private Customer find(AppUser actor, UUID id) {
 Este apartado **se genera desde código** mediante [GitHub Actions](https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/profile.yml) y un [script de Node.js](https://github.com/BryanOnKeys/BryanOnKeys/blob/main/scripts/profile/render_readme.mjs). No introduce visitas, commits, estrellas ni actividad ficticia.
 
 <!-- PROFILE_LIVE:START -->
-**Actividad verificable** · Instantánea pública: `2026-11-11` (UTC)
+**Actividad verificable** · Instantánea pública: `2026-11-12` (UTC)
 
 | Contribuciones (últimos 12 meses) | Repositorios públicos | Proyectos propios públicos | Estrellas en esos repositorios | Seguidores |
 | :---: | :---: | :---: | :---: | :---: |
-| **80** | **14** | **5** | **4** | **21** |
+| **80** | **14** | **5** | **4** | **26** |
 
 <details>
 <summary>Últimos eventos públicos registrados</summary>
