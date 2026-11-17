@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T21:11:49+00:00",
+  "updatedAt": "2026-11-17T19:59:08+00:00",
   "login": "BryanOnKeys",
-  "followers": 29,
+  "followers": 35,
   "joinedAt": "2025-03-02",
   "repositories": [
     {
@@ -27,7 +27,7 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-16T20:31:35Z"
+      "pushedAt": "2026-11-17T19:12:01Z"
     },
     {
       "name": "BryanOnKeys.github.io",
@@ -102,6 +102,14 @@
       "pushedAt": "2026-10-24T22:11:20Z"
     },
     {
+      "name": "Static_Chess",
+      "url": "https://github.com/BryanOnKeys/Static_Chess",
+      "fork": true,
+      "stars": 0,
+      "language": null,
+      "pushedAt": "2026-11-17T03:39:47Z"
+    },
+    {
       "name": "verfy",
       "url": "https://github.com/BryanOnKeys/verfy",
       "fork": false,
@@ -132,7 +140,7 @@
     "Dockerfile": 330
   },
   "calendar": {
-    "total": 80,
+    "total": 85,
     "days": [
       {
         "date": "2025-11-16",
@@ -1961,13 +1969,30 @@
       },
       {
         "date": "2026-11-16",
-        "count": 0,
-        "level": 0
+        "count": 1,
+        "level": 1
+      },
+      {
+        "date": "2026-11-17",
+        "count": 4,
+        "level": 2
       }
     ],
     "source": "github-graphql"
   },
   "activity": [
+    {
+      "repository": "Static_Chess",
+      "label": "Nueva rama o repositorio",
+      "date": "2026-11-17",
+      "type": "CreateEvent"
+    },
+    {
+      "repository": "Static_Chess",
+      "label": "Código actualizado",
+      "date": "2026-11-17",
+      "type": "PushEvent"
+    },
     {
       "repository": "kvdock",
       "label": "Código actualizado",
@@ -1984,18 +2009,6 @@
       "repository": "duo",
       "label": "Código actualizado",
       "date": "2026-11-02",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "web-petshop",
-      "label": "Código actualizado",
-      "date": "2026-11-01",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "openstand",
-      "label": "Código actualizado",
-      "date": "2026-11-01",
       "type": "PushEvent"
     }
   ]
