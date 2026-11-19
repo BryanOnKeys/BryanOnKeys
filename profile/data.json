@@ -1,10 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T19:30:21+00:00",
+  "updatedAt": "2026-11-19T19:35:55+00:00",
   "login": "BryanOnKeys",
-  "followers": 38,
+  "followers": 42,
   "joinedAt": "2025-03-02",
   "repositories": [
+    {
+      "name": "AskDB",
+      "url": "https://github.com/BryanOnKeys/AskDB",
+      "fork": true,
+      "stars": 0,
+      "language": null,
+      "pushedAt": "2026-11-19T04:08:06Z"
+    },
     {
       "name": "awesome-student-resources",
       "url": "https://github.com/BryanOnKeys/awesome-student-resources",
@@ -27,7 +35,7 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-18T18:52:10Z"
+      "pushedAt": "2026-11-19T19:00:08Z"
     },
     {
       "name": "BryanOnKeys.github.io",
@@ -52,6 +60,14 @@
       "stars": 0,
       "language": null,
       "pushedAt": "2026-11-02T13:32:18Z"
+    },
+    {
+      "name": "editorial-studio-site",
+      "url": "https://github.com/BryanOnKeys/editorial-studio-site",
+      "fork": true,
+      "stars": 0,
+      "language": null,
+      "pushedAt": "2026-11-18T19:53:51Z"
     },
     {
       "name": "JSPrismarine",
@@ -110,6 +126,14 @@
       "pushedAt": "2026-11-17T03:39:47Z"
     },
     {
+      "name": "translated-content",
+      "url": "https://github.com/BryanOnKeys/translated-content",
+      "fork": true,
+      "stars": 0,
+      "language": null,
+      "pushedAt": "2026-11-18T20:12:17Z"
+    },
+    {
       "name": "verfy",
       "url": "https://github.com/BryanOnKeys/verfy",
       "fork": false,
@@ -140,7 +164,7 @@
     "Dockerfile": 330
   },
   "calendar": {
-    "total": 85,
+    "total": 117,
     "days": [
       {
         "date": "2025-11-16",
@@ -1850,7 +1874,7 @@
       {
         "date": "2026-10-23",
         "count": 4,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-10-24",
@@ -1860,12 +1884,12 @@
       {
         "date": "2026-10-25",
         "count": 4,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-10-26",
         "count": 7,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-10-27",
@@ -1880,32 +1904,32 @@
       {
         "date": "2026-10-29",
         "count": 4,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-10-30",
         "count": 6,
-        "level": 3
+        "level": 2
       },
       {
         "date": "2026-10-31",
         "count": 3,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-11-01",
         "count": 3,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-11-02",
         "count": 3,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-11-03",
         "count": 8,
-        "level": 4
+        "level": 2
       },
       {
         "date": "2026-11-04",
@@ -1975,17 +1999,28 @@
       {
         "date": "2026-11-17",
         "count": 4,
-        "level": 2
+        "level": 1
       },
       {
         "date": "2026-11-18",
-        "count": 0,
-        "level": 0
+        "count": 12,
+        "level": 3
+      },
+      {
+        "date": "2026-11-19",
+        "count": 20,
+        "level": 4
       }
     ],
     "source": "github-graphql"
   },
   "activity": [
+    {
+      "repository": "editorial-studio-site",
+      "label": "Código actualizado",
+      "date": "2026-11-18",
+      "type": "PushEvent"
+    },
     {
       "repository": "Static_Chess",
       "label": "Nueva rama o repositorio",
@@ -2009,12 +2044,6 @@
       "label": "Nueva rama o repositorio",
       "date": "2026-11-03",
       "type": "CreateEvent"
-    },
-    {
-      "repository": "duo",
-      "label": "Código actualizado",
-      "date": "2026-11-02",
-      "type": "PushEvent"
     }
   ]
 }
