@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T19:35:55+00:00",
+  "updatedAt": "2026-11-20T19:13:51+00:00",
   "login": "BryanOnKeys",
-  "followers": 42,
+  "followers": 46,
   "joinedAt": "2025-03-02",
   "repositories": [
     {
@@ -35,7 +35,7 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-19T19:00:08Z"
+      "pushedAt": "2026-11-20T18:37:55Z"
     },
     {
       "name": "BryanOnKeys.github.io",
@@ -147,24 +147,24 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-01T04:57:52Z"
+      "pushedAt": "2026-11-20T16:00:07Z"
     }
   ],
   "languages": {
     "TypeScript": 977585,
     "Python": 304990,
-    "CSS": 199809,
-    "JavaScript": 169151,
+    "JavaScript": 209804,
+    "CSS": 204530,
     "Java": 144516,
     "PLpgSQL": 60084,
     "HCL": 7232,
-    "HTML": 5410,
+    "HTML": 5232,
     "Shell": 4492,
     "PowerShell": 4393,
     "Dockerfile": 330
   },
   "calendar": {
-    "total": 117,
+    "total": 120,
     "days": [
       {
         "date": "2025-11-16",
@@ -2003,47 +2003,52 @@
       },
       {
         "date": "2026-11-18",
-        "count": 12,
+        "count": 13,
         "level": 3
       },
       {
         "date": "2026-11-19",
         "count": 20,
         "level": 4
+      },
+      {
+        "date": "2026-11-20",
+        "count": 2,
+        "level": 1
       }
     ],
     "source": "github-graphql"
   },
   "activity": [
     {
-      "repository": "editorial-studio-site",
-      "label": "Código actualizado",
+      "repository": "AskDB",
+      "label": "Nueva rama o repositorio",
+      "date": "2026-11-19",
+      "type": "CreateEvent"
+    },
+    {
+      "repository": "AskDB",
+      "label": "Nueva rama o repositorio",
+      "date": "2026-11-19",
+      "type": "CreateEvent"
+    },
+    {
+      "repository": "AskDB",
+      "label": "Nueva rama o repositorio",
       "date": "2026-11-18",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "Static_Chess",
-      "label": "Nueva rama o repositorio",
-      "date": "2026-11-17",
       "type": "CreateEvent"
     },
     {
-      "repository": "Static_Chess",
-      "label": "Código actualizado",
-      "date": "2026-11-17",
-      "type": "PushEvent"
+      "repository": "web-petshop",
+      "label": "Pull request",
+      "date": "2026-11-20",
+      "type": "PullRequestEvent"
     },
     {
-      "repository": "kvdock",
-      "label": "Código actualizado",
-      "date": "2026-11-03",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "JSPrismarine",
-      "label": "Nueva rama o repositorio",
-      "date": "2026-11-03",
-      "type": "CreateEvent"
+      "repository": "web-petshop",
+      "label": "Pull request",
+      "date": "2026-11-20",
+      "type": "PullRequestEvent"
     }
   ]
 }
