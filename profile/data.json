@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T19:13:51+00:00",
+  "updatedAt": "2026-11-21T18:09:41+00:00",
   "login": "BryanOnKeys",
-  "followers": 46,
+  "followers": 45,
   "joinedAt": "2025-03-02",
   "repositories": [
     {
@@ -35,7 +35,7 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-20T18:37:55Z"
+      "pushedAt": "2026-11-21T17:35:55Z"
     },
     {
       "name": "BryanOnKeys.github.io",
@@ -43,7 +43,7 @@
       "fork": false,
       "stars": 0,
       "language": "TypeScript",
-      "pushedAt": "2026-10-30T20:13:20Z"
+      "pushedAt": "2026-11-20T22:34:21Z"
     },
     {
       "name": "deadcode-hunter",
@@ -151,20 +151,20 @@
     }
   ],
   "languages": {
-    "TypeScript": 977585,
+    "TypeScript": 973490,
     "Python": 304990,
-    "JavaScript": 209804,
-    "CSS": 204530,
+    "JavaScript": 218327,
+    "CSS": 169334,
     "Java": 144516,
     "PLpgSQL": 60084,
     "HCL": 7232,
-    "HTML": 5232,
+    "HTML": 5324,
     "Shell": 4492,
     "PowerShell": 4393,
     "Dockerfile": 330
   },
   "calendar": {
-    "total": 120,
+    "total": 125,
     "days": [
       {
         "date": "2025-11-16",
@@ -2013,8 +2013,13 @@
       },
       {
         "date": "2026-11-20",
-        "count": 2,
-        "level": 1
+        "count": 7,
+        "level": 2
+      },
+      {
+        "date": "2026-11-21",
+        "count": 0,
+        "level": 0
       }
     ],
     "source": "github-graphql"
@@ -2027,28 +2032,28 @@
       "type": "CreateEvent"
     },
     {
+      "repository": "BryanOnKeys.github.io",
+      "label": "Código actualizado",
+      "date": "2026-11-20",
+      "type": "PushEvent"
+    },
+    {
+      "repository": "BryanOnKeys.github.io",
+      "label": "Pull request",
+      "date": "2026-11-20",
+      "type": "PullRequestEvent"
+    },
+    {
+      "repository": "BryanOnKeys.github.io",
+      "label": "Pull request",
+      "date": "2026-11-20",
+      "type": "PullRequestEvent"
+    },
+    {
       "repository": "AskDB",
-      "label": "Nueva rama o repositorio",
+      "label": "Código actualizado",
       "date": "2026-11-19",
-      "type": "CreateEvent"
-    },
-    {
-      "repository": "AskDB",
-      "label": "Nueva rama o repositorio",
-      "date": "2026-11-18",
-      "type": "CreateEvent"
-    },
-    {
-      "repository": "web-petshop",
-      "label": "Pull request",
-      "date": "2026-11-20",
-      "type": "PullRequestEvent"
-    },
-    {
-      "repository": "web-petshop",
-      "label": "Pull request",
-      "date": "2026-11-20",
-      "type": "PullRequestEvent"
+      "type": "PushEvent"
     }
   ]
 }
