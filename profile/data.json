@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T18:37:56+00:00",
+  "updatedAt": "2026-11-23T22:51:56+00:00",
   "login": "BryanOnKeys",
-  "followers": 48,
+  "followers": 47,
   "joinedAt": "2025-03-02",
   "repositories": [
     {
@@ -35,7 +35,7 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-22T17:51:20Z"
+      "pushedAt": "2026-11-23T22:03:52Z"
     },
     {
       "name": "BryanOnKeys.github.io",
@@ -1990,40 +1990,45 @@
         "date": "2026-11-22",
         "count": 0,
         "level": 0
+      },
+      {
+        "date": "2026-11-23",
+        "count": 0,
+        "level": 0
       }
     ],
     "source": "github-graphql"
   },
   "activity": [
     {
+      "repository": "BryanOnKeys.github.io",
+      "label": "Código actualizado",
+      "date": "2026-11-20",
+      "type": "PushEvent"
+    },
+    {
+      "repository": "BryanOnKeys.github.io",
+      "label": "Código actualizado",
+      "date": "2026-11-20",
+      "type": "PushEvent"
+    },
+    {
+      "repository": "BryanOnKeys.github.io",
+      "label": "Nueva rama o repositorio",
+      "date": "2026-11-20",
+      "type": "CreateEvent"
+    },
+    {
+      "repository": "web-petshop",
+      "label": "Nueva rama o repositorio",
+      "date": "2026-11-20",
+      "type": "CreateEvent"
+    },
+    {
       "repository": "AskDB",
       "label": "Nueva rama o repositorio",
       "date": "2026-11-19",
       "type": "CreateEvent"
-    },
-    {
-      "repository": "BryanOnKeys.github.io",
-      "label": "Código actualizado",
-      "date": "2026-11-20",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "BryanOnKeys.github.io",
-      "label": "Pull request",
-      "date": "2026-11-20",
-      "type": "PullRequestEvent"
-    },
-    {
-      "repository": "BryanOnKeys.github.io",
-      "label": "Pull request",
-      "date": "2026-11-20",
-      "type": "PullRequestEvent"
-    },
-    {
-      "repository": "AskDB",
-      "label": "Código actualizado",
-      "date": "2026-11-19",
-      "type": "PushEvent"
     }
   ]
 }

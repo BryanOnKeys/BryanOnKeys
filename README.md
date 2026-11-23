@@ -133,20 +133,20 @@ private Customer find(AppUser actor, UUID id) {
 Este apartado **se genera desde código** mediante [GitHub Actions](https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/profile.yml) y un [script de Node.js](https://github.com/BryanOnKeys/BryanOnKeys/blob/main/scripts/profile/render_readme.mjs). No introduce visitas, commits, estrellas ni actividad ficticia.
 
 <!-- PROFILE_LIVE:START -->
-**Actividad verificable** · Instantánea pública: `2026-11-22` (UTC)
+**Actividad verificable** · Instantánea pública: `2026-11-23` (UTC)
 
 | Contribuciones (últimos 12 meses) | Repositorios públicos | Proyectos propios públicos | Estrellas en esos repositorios | Seguidores |
 | :---: | :---: | :---: | :---: | :---: |
-| **125** | **18** | **5** | **4** | **48** |
+| **125** | **18** | **5** | **4** | **47** |
 
 <details>
 <summary>Últimos eventos públicos registrados</summary>
 
 | Fecha | Repositorio | Evento |
 | --- | --- | --- |
-| 2026-11-19 | [`AskDB`](https://github.com/BryanOnKeys/AskDB) | Nueva rama o repositorio |
 | 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Código actualizado |
-| 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Pull request |
+| 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Código actualizado |
+| 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Nueva rama o repositorio |
 
 </details>
 
