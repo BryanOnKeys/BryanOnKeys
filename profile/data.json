@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T20:27:34+00:00",
+  "updatedAt": "2026-11-27T20:11:41+00:00",
   "login": "BryanOnKeys",
-  "followers": 45,
+  "followers": 50,
   "joinedAt": "2025-03-02",
   "repositories": [
     {
@@ -35,7 +35,7 @@
       "fork": false,
       "stars": 1,
       "language": "JavaScript",
-      "pushedAt": "2026-11-26T19:39:04Z"
+      "pushedAt": "2026-11-27T19:29:36Z"
     },
     {
       "name": "BryanOnKeys.github.io",
@@ -59,7 +59,7 @@
       "fork": true,
       "stars": 0,
       "language": null,
-      "pushedAt": "2026-11-02T13:32:18Z"
+      "pushedAt": "2026-11-27T02:43:14Z"
     },
     {
       "name": "editorial-studio-site",
@@ -67,7 +67,7 @@
       "fork": true,
       "stars": 0,
       "language": null,
-      "pushedAt": "2026-11-18T19:53:51Z"
+      "pushedAt": "2026-11-27T15:33:03Z"
     },
     {
       "name": "JSPrismarine",
@@ -75,7 +75,7 @@
       "fork": true,
       "stars": 0,
       "language": null,
-      "pushedAt": "2026-11-03T01:39:51Z"
+      "pushedAt": "2026-11-27T02:47:27Z"
     },
     {
       "name": "kvdock",
@@ -131,7 +131,7 @@
       "fork": true,
       "stars": 0,
       "language": null,
-      "pushedAt": "2026-11-26T14:32:21Z"
+      "pushedAt": "2026-11-27T15:28:42Z"
     },
     {
       "name": "verfy",
@@ -164,7 +164,7 @@
     "Dockerfile": 330
   },
   "calendar": {
-    "total": 132,
+    "total": 149,
     "days": [
       {
         "date": "2025-11-23",
@@ -2008,7 +2008,12 @@
       },
       {
         "date": "2026-11-26",
-        "count": 6,
+        "count": 16,
+        "level": 4
+      },
+      {
+        "date": "2026-11-27",
+        "count": 7,
         "level": 2
       }
     ],
@@ -2016,33 +2021,33 @@
   },
   "activity": [
     {
-      "repository": "BryanOnKeys.github.io",
-      "label": "Código actualizado",
-      "date": "2026-11-20",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "BryanOnKeys.github.io",
-      "label": "Código actualizado",
-      "date": "2026-11-20",
-      "type": "PushEvent"
-    },
-    {
-      "repository": "BryanOnKeys.github.io",
+      "repository": "editorial-studio-site",
       "label": "Nueva rama o repositorio",
-      "date": "2026-11-20",
+      "date": "2026-11-27",
       "type": "CreateEvent"
     },
     {
-      "repository": "web-petshop",
+      "repository": "JSPrismarine",
       "label": "Nueva rama o repositorio",
-      "date": "2026-11-20",
+      "date": "2026-11-27",
       "type": "CreateEvent"
     },
     {
-      "repository": "AskDB",
+      "repository": "translated-content",
+      "label": "Código actualizado",
+      "date": "2026-11-26",
+      "type": "PushEvent"
+    },
+    {
+      "repository": "deadcode-hunter",
       "label": "Nueva rama o repositorio",
-      "date": "2026-11-19",
+      "date": "2026-11-26",
+      "type": "CreateEvent"
+    },
+    {
+      "repository": "translated-content",
+      "label": "Nueva rama o repositorio",
+      "date": "2026-11-26",
       "type": "CreateEvent"
     }
   ]

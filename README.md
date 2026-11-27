@@ -133,20 +133,20 @@ private Customer find(AppUser actor, UUID id) {
 Este apartado **se genera desde código** mediante [GitHub Actions](https://github.com/BryanOnKeys/BryanOnKeys/actions/workflows/profile.yml) y un [script de Node.js](https://github.com/BryanOnKeys/BryanOnKeys/blob/main/scripts/profile/render_readme.mjs). No introduce visitas, commits, estrellas ni actividad ficticia.
 
 <!-- PROFILE_LIVE:START -->
-**Actividad verificable** · Instantánea pública: `2026-11-26` (UTC)
+**Actividad verificable** · Instantánea pública: `2026-11-27` (UTC)
 
 | Contribuciones (últimos 12 meses) | Repositorios públicos | Proyectos propios públicos | Estrellas en esos repositorios | Seguidores |
 | :---: | :---: | :---: | :---: | :---: |
-| **132** | **18** | **5** | **4** | **45** |
+| **149** | **18** | **5** | **4** | **50** |
 
 <details>
 <summary>Últimos eventos públicos registrados</summary>
 
 | Fecha | Repositorio | Evento |
 | --- | --- | --- |
-| 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Código actualizado |
-| 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Código actualizado |
-| 2026-11-20 | [`BryanOnKeys.github.io`](https://github.com/BryanOnKeys/BryanOnKeys.github.io) | Nueva rama o repositorio |
+| 2026-11-27 | [`editorial-studio-site`](https://github.com/BryanOnKeys/editorial-studio-site) | Nueva rama o repositorio |
+| 2026-11-27 | [`JSPrismarine`](https://github.com/BryanOnKeys/JSPrismarine) | Nueva rama o repositorio |
+| 2026-11-26 | [`translated-content`](https://github.com/BryanOnKeys/translated-content) | Código actualizado |
 
 </details>
 
